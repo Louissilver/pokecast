@@ -3,6 +3,12 @@
   padding: 3rem 2rem;
   margin: 0 auto;
   background: var(--back-theme);
+  height: calc(100vh - 6.5rem);
+  overflow-y: hidden;
+
+  &:hover {
+    overflow-y: scroll;
+  }
 
   .thumbnailContainer {
     position: relative;
