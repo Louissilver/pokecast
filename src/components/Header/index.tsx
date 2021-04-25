@@ -14,7 +14,7 @@ export function Header({ toggleTheme, theme }) {
     <header className={styles.headerContainer}>
       <Link href="/">
         <a>
-          <img src="/logo.svg" alt="Logo da Podcastr" />
+          <img src="/logo.png" alt="Logo da Podcastr" />
         </a>
       </Link>
 

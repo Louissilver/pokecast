@@ -65,7 +65,7 @@ export function Player() {
   return (
     <div className={styles.playerContainer}>
       <header>
-        <img src="/playing.svg" alt="Tocando agora" />
+        <img src="/pokeball.png" alt="Tocando agora" />
         <strong>Tocando agora</strong>
       </header>
 
@@ -92,9 +92,9 @@ export function Player() {
                 max={episode.duration}
                 value={progress}
                 onChange={handleSeek}
-                trackStyle={{ backgroundColor: '#04d361' }}
-                railStyle={{ backgroundColor: '#9f75ff' }}
-                handleStyle={{ borderColor: '#04d361', borderWidth: 4 }}
+                trackStyle={{ backgroundColor: '#999' }}
+                railStyle={{ backgroundColor: 'white' }}
+                handleStyle={{ borderColor: 'red', borderWidth: 4 }}
               />
             ) : (
               <div className={styles.emptySlider} />
