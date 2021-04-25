@@ -1,6 +1,7 @@
 .headerContainer {
   background: var(--white);
   height: 6.5rem;
+  color: var(--gray-800);
 
   display: flex;
   align-items: center;
@@ -10,6 +11,7 @@
   border-bottom: 1px solid var(--gray-100);
 
   p {
+    color: var(--gray-500);
     margin-left: 2rem;
     padding: 0.25rem 0 0.25rem 2rem;
     border-left: 1px solid var(--gray-100);
@@ -18,5 +20,27 @@
   span {
     margin-left: auto;
     text-transform: capitalize;
+  }
+
+  .themeButton {
+    margin-left: auto;
+    background: var(--green-500);
+    border: 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    padding: 0.25rem;
+    font-size: 0;
+
+    transition: font-size 0.6s;
+
+    span {
+      margin-left: auto;
+      text-transform: none;
+    }
+
+    &:hover {
+      font-size: 1rem;
+    }
   }
 }
